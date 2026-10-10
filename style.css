@@ -1,0 +1,22 @@
+/*
+Theme Name: Royal Taste Restaurant
+Theme URI: https://example.com/
+Author: Royal Taste Restaurant
+Description: Premium fine-dining and wood-fired restaurant WordPress theme converted from the supplied Royal Taste React/Vite website.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+Text Domain: royal-taste-restaurant
+*/
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #0A0A0B; color: #F7F5F0; }
+body.admin-bar { margin-top: 0; }
+#root { min-height: 100vh; }
+.font-serif, h1, h2, h3, h4, h5, h6 { font-family: "Cormorant Garamond", Georgia, serif; }
+button, input, select, textarea { font: inherit; }
+img { max-width: 100%; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
